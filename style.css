@@ -9,16 +9,6 @@
     line-height: 1.6;
   }
   
-  ul {
-    list-style: none;
-  }
-  
-  ul li {
-    padding: 5px;
-    background: #f4f4f4;
-    margin: 5px 0;
-  }
-  
   header {
     background: #f4f4f4;
     padding: 1rem;
@@ -28,27 +18,10 @@
   .container {
     background: #f4f4f4;
     margin: 5rem auto;
-    width: 30rem;
+    max-width: 30rem;
     overflow: auto;
     padding: 3rem 2rem;
     border-radius: 5px;
-  }
-  
-  #my-form {
-    padding: 2rem;
-    background: #f4f4f4;
-  }
-  
-  #my-form label {
-    display: block;
-  }
-  
-  #my-form input[type='text'] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
   }
   
   .btn {
